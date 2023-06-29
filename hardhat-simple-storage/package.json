@@ -1,0 +1,29 @@
+{
+    "name": "hardhat-simple-storage",
+    "version": "1.0.0",
+    "description": "Harhat smart contract",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "yarn prettier --check .",
+        "lint:fix": "yarn prettier --write ."
+    },
+    "author": "Mubarak Muhammad Aminu",
+    "license": "ISC",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+        "@nomiclabs/hardhat-ethers": "^2.2.3",
+        "@nomiclabs/hardhat-etherscan": "^3.0.0",
+        "@nomiclabs/hardhat-waffle": "^2.0.2",
+        "chai": "^4.3.4",
+        "ethereum-waffle": "^3.4.0",
+        "ethers": "^5.7.2",
+        "hardhat": "^2.16.0",
+        "hardhat-gas-reporter": "^1.0.7",
+        "solidity-coverage": "^0.7.18"
+    },
+    "dependencies": {
+        "dotenv": "^14.3.2",
+        "prettier-plugin-solidity": "^1.0.0-beta.19"
+    }
+}
